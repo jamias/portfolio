@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PUZZLE>
+
+  <PUZZLE_DIM>
+	  <ROWS> 3 </ROWS>
+	  <COLS> 3 </COLS>
+	  <RANDOM_ROWCOLS> false </RANDOM_ROWCOLS>
+  </PUZZLE_DIM>
+  
+  <TIMER_LIMIT>
+	  <SECONDS>120</SECONDS>
+  </TIMER_LIMIT>
+	
+  <BACKGROUND>	
+	  <BG_COLOR def="0x0099ff"> 0xa0917f </BG_COLOR>
+	   <BG_WALLPAPER> <!-- none --> </BG_WALLPAPER>
+	   <BG_WALLPAPER_ALPHA> 0 </BG_WALLPAPER_ALPHA>
+	  <BG_PERLIN_ALPHA> 0 </BG_PERLIN_ALPHA>
+  </BACKGROUND>
+
+
+  <IMAGES>
+  	  <IMAGE TITLE="Bear" CARDTILEX="500" CARDTILEY="500"> images/bear.jpg </IMAGE>
+	  <IMAGE TITLE="Beach" CARDTILEX="183" CARDTILEY="831"> images/beach.jpg </IMAGE>
+		
+	  <RANDOM_IMG> false </RANDOM_IMG>
+  </IMAGES>
+  
+   <PRACTICE>
+  	  <IMAGE TITLE="Laundry" CARDTILEX="511" CARDTILEY="653"> images/laundry.jpg </IMAGE>  
+  </PRACTICE>
+
+
+  <SHOW_BUTTONS>
+	  <PREV_NEXT> true </PREV_NEXT>
+	  <DIFFICULTY> true </DIFFICULTY>
+	  <SCORES> false </SCORES>
+  </SHOW_BUTTONS>
+  
+  
+</PUZZLE>
