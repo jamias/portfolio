@@ -456,28 +456,28 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.bars).wait(1));
 
 	// txtfields
-	this.txtOddsDraw = new cjs.Text("DRAW", "34px 'Unibet Pro (superstar edit)'", "#FFFFFF");
+	this.txtOddsDraw = new cjs.Text("DRAW", "32px 'Impact'", "#FFFFFF");
 	this.txtOddsDraw.name = "txtOddsDraw";
 	this.txtOddsDraw.lineHeight = 36;
 	this.txtOddsDraw.lineWidth = 100;
 	this.txtOddsDraw.parent = this;
 	this.txtOddsDraw.setTransform(117.5,128.1);
 
-	this.txtOdds2 = new cjs.Text("TEAM2", "34px 'Unibet Pro (superstar edit)'", "#FFFFFF");
+	this.txtOdds2 = new cjs.Text("TEAM2", "32px 'Impact'", "#FFFFFF");
 	this.txtOdds2.name = "txtOdds2";
 	this.txtOdds2.lineHeight = 36;
 	this.txtOdds2.lineWidth = 100;
 	this.txtOdds2.parent = this;
 	this.txtOdds2.setTransform(228.5,128.1);
 
-	this.txtOdds1 = new cjs.Text("TEAM1", "34px 'Unibet Pro (superstar edit)'", "#FFFFFF");
+	this.txtOdds1 = new cjs.Text("TEAM1", "32px 'Impact'", "#FFFFFF");
 	this.txtOdds1.name = "txtOdds1";
 	this.txtOdds1.lineHeight = 36;
 	this.txtOdds1.lineWidth = 100;
 	this.txtOdds1.parent = this;
 	this.txtOdds1.setTransform(19.5,128.1);
 
-	this.txtDraw = new cjs.Text("DRAW", "24px 'Unibet Pro (superstar edit)'", "#44CB3F");
+	this.txtDraw = new cjs.Text("DRAW", "22px 'Impact'", "#44CB3F");
 	this.txtDraw.name = "txtDraw";
 	this.txtDraw.textAlign = "center";
 	this.txtDraw.lineHeight = 26;
@@ -485,7 +485,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.txtDraw.parent = this;
 	this.txtDraw.setTransform(160,98.1);
 
-	this.txtTeam2 = new cjs.Text("TEAM2", "24px 'Unibet Pro (superstar edit)'", "#39AA35");
+	this.txtTeam2 = new cjs.Text("TEAM2", "22px 'Impact'", "#39AA35");
 	this.txtTeam2.name = "txtTeam2";
 	this.txtTeam2.textAlign = "center";
 	this.txtTeam2.lineHeight = 26;
@@ -493,7 +493,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.txtTeam2.parent = this;
 	this.txtTeam2.setTransform(256,98.1);
 
-	this.txtTeam1 = new cjs.Text("TEAM1", "24px 'Unibet Pro (superstar edit)'", "#39AA35");
+	this.txtTeam1 = new cjs.Text("TEAM1", "22px 'Impact'", "#39AA35");
 	this.txtTeam1.name = "txtTeam1";
 	this.txtTeam1.textAlign = "center";
 	this.txtTeam1.lineHeight = 26;
